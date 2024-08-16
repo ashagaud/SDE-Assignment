@@ -1,0 +1,33 @@
+Structure of project----
+
+project-root/
+├── entities/
+│   ├── Driver.ts
+│   ├── TransferRecord.ts
+│   └── Vehicle.ts
+├── lib/
+│   └── typeorm.ts
+├── pages/
+│   ├── api/
+│   │   └── transfer.ts
+│   └── drivers.tsx
+├── components/
+│   └── TransferForm.tsx
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
+
+
+
+# Vehicle Transfer Module
+
+## Description
+
+This module includes an API for handling vehicle transfers between drivers and a frontend form for creating transfers.
+
+## Setup
+
+1. Install dependencies:
+   ```sh
+   npm install
