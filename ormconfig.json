@@ -1,0 +1,15 @@
+{
+    "type": "mysql", 
+    "host": "127.0.0.1",
+    "port": 33060, 
+    "username": "root",
+    "password": "abcd1234",
+    "database": "drivetrack",
+    "entities": [
+      "src/driver/driver.entity.ts",
+      "src/transfers/transfer.entity.ts",
+      "src/vehicle/vehicle.entity.ts"
+    ],
+    "synchronize": true 
+  }
+  
